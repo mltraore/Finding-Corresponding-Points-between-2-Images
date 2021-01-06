@@ -15,7 +15,7 @@ Programmed from scracth using python
  
 `   
 ## Finding Corresponding Points using HCD and NCC Algorithms
-`
+```
 python3 demo.py \  
 	     --image1        image1_name    \  
        --image2        image2_name    \  
@@ -26,17 +26,17 @@ python3 demo.py \
        --wid           wid value                                  \  
        --graph         graph type [line or point]                  
          
-`
+```
 ### Example 1: graph = line
 
-`
+```
 python3 demo.py --sigma 3 --threshold_h 0.05 --threshold_d 0.5 --graph line
 
-`
+```
 
 ### Example 2: graph = point
 
-`
+```
 python3 demo.py --sigma 3 --threshold_h 0.05 --threshold_d 0.5 --graph point
 
-`
+```
