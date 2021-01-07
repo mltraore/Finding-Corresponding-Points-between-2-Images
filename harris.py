@@ -34,11 +34,11 @@ class Harris:
     Harris Corner Detector Class
     Usage:
          - uncomment above arguments
-             python3 harris.py  \
+           python3 harris.py  \
                   --image      image_name \
                   --simga      sigma_value
-              --threshold  threshold value
-              --min_dist   Minimum distance value
+                  --threshold  threshold value
+                  --min_dist   Minimum distance value
     """
 
     def __init__(self, image, sigma, threshold, min_dist):
