@@ -8,17 +8,8 @@ import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--image', help='The image directory', default='01.png')
 parser.add_argument('--sigma', type=int, help='Sigma value', default=3)
-parser.add_argument(
-    '--threshold',
-    type=float,
-    help='Threshold value',
-    default=0.1)
-parser.add_argument(
-    '--min_dist',
-    type=int,
-    help='Minimum distance',
-    default=10)
-
+parser.add_argument('--threshold',type=float,help='Threshold value',default=0.1)
+parser.add_argument('--min_dist',type=int,help='Minimum distance',default=10)
 
 # To use this please uncomment the below arguments
 
