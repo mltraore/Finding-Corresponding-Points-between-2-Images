@@ -27,7 +27,7 @@ python3 demo.py \
 ### Example 1: graph = line
 
 ```
-python3 demo.py --image1 images/01.png --image2/02.png --sigma 3 --threshold_h 0.05 --threshold_d 0.5 --graph line
+python3 demo.py --image1 images/01.png --image2 images/02.png --sigma 3 --threshold_h 0.05 --threshold_d 0.5 --graph line
 ```
 
 ### Example 2: graph = point
